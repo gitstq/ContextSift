@@ -1,0 +1,38 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# ContextSift build artifacts
+releases/
+*.sha256
+*.sha256.txt
+
+# Secrets
+.env
+*.pem
